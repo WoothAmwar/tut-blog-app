@@ -1,0 +1,11 @@
+#1 Git Add
+ - To add all: git add . 
+ - To add file: git add filename
+   - Ex: git add src/App.js
+#2 Git commit
+ - To add: git commit
+ - With message: git commit -m "message"
+   - Currently do not know where this message is shown
+#3 Git push
+ - Push to github.com: git push
+
