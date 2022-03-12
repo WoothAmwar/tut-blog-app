@@ -1,6 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 
+const hello_world = "Oliver Twist - 5hrs 39min";
+
+function text_output(text) {
+  return (
+    <div>
+      <a>{hello_world}</a>
+    </div>
+  );
+}
+
 function App() {
   return (
     <div className="App">
@@ -16,6 +26,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn how to make a book database with React
+          {text_output(hello_world)}
         </a>
       </header>
     </div>
